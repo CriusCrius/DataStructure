@@ -1,4 +1,4 @@
-# 链式结构与线性结构不同：内存不连续、不可以通过下表方式访问
+# 链式结构与线性结构不同：内存不连续、不可以通过下标方式访问
 # 实现一个单链接表linkedlist，单链表由根节点(root)、头节点(head)、尾节点(tail)以及中间一个个节点组成，每个节点包含当前节点内容以及指向下一个节点。
 # 单链表包含的操作有：查询(find)、追加(append,appendleft)、插入(insert)、删除(remove)、弹出(pop,popleft)、遍历(iter)
 # 单链表的几个时间复杂度：append()及appendleft()是O(1)；find()及remove()是O(n)
